@@ -18,7 +18,7 @@ Hello!
 Uh, wasn't there a release today already? Well yes there was. It's just that the last update added a new security check for instance components, which sadly made Penguin Launcher think that Fabric and Quilt are invalid.
 Note that this issue won't cause permanent damage, as that check is done on runtime and is purely for informational purposes.
 
-Make sure to read the [previous changelog here](https://penguinlauncher.pythonanywhere.com/news/release-6.2/) to see the other changes as well!
+Make sure to read the [previous changelog here](https://penguinlauncher.cleverpenguinmail.workers.dev//news/release-6.2/) to see the other changes as well!
 
 ## Changelog
 
@@ -28,4 +28,4 @@ Make sure to read the [previous changelog here](https://penguinlauncher.pythonan
 
 Full Changelog: <https://github.com/penguincre8te/PenguinLauncher/compare/6.2...6.3>
 
-You can [grab the latest download here](https://penguinlauncher.pythonanywhere.com/download/) for your respective platform.
+You can [grab the latest download here](https://penguinlauncher.cleverpenguinmail.workers.dev//download/) for your respective platform.

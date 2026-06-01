@@ -25,4 +25,4 @@ Apologies for the delay - we were not initially quite aware of the impact that t
 
 Full Changelog: <https://github.com/penguincre8te/PenguinLauncher/compare/9.0...9.1>
 
-You can [grab the latest download here](https://penguinlauncher.pythonanywhere.com/download/) for your respective platform.
+You can [grab the latest download here](https://penguinlauncher.cleverpenguinmail.workers.dev//download/) for your respective platform.

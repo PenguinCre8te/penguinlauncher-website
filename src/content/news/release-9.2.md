@@ -49,4 +49,4 @@ This is a minor update that should fix some crashes.
 
 Full Changelog: <https://github.com/penguincre8te/PenguinLauncher/compare/9.1...9.2>
 
-You can [grab the latest download here](https://penguinlauncher.pythonanywhere.com/download/) for your respective platform.
+You can [grab the latest download here](https://penguinlauncher.cleverpenguinmail.workers.dev//download/) for your respective platform.

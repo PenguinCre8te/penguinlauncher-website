@@ -225,4 +225,4 @@ Raw screenshots can be found here: [Raw Screenshots][raw-screenshots]
 
 [pr-ftb-removal]: https://github.com/penguincre8te/PenguinLauncher/pull/1040
 [issue-ftb-app-import]: https://github.com/penguincre8te/PenguinLauncher/issues/235
-[raw-screenshots]: https://penguinlauncher.pythonanywhere.com/news/ftb-removal/#raw-screenshots
+[raw-screenshots]: https://penguinlauncher.cleverpenguinmail.workers.dev//news/ftb-removal/#raw-screenshots

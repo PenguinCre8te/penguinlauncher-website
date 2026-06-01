@@ -19,11 +19,11 @@ Hey!
 
 </div>
 
-After taking a break from our work on the upcoming [Penguin 𝕏](https://penguinlauncher.pythonanywhere.com/news/penguin-premium/) (happy April Fools!), the Penguin Launcher team is proud to present the latest release in our 9.x series: **9.3** 🎉
+After taking a break from our work on the upcoming [Penguin 𝕏](https://penguinlauncher.cleverpenguinmail.workers.dev//news/penguin-premium/) (happy April Fools!), the Penguin Launcher team is proud to present the latest release in our 9.x series: **9.3** 🎉
 
 This release primarily improves stability, compatibility, and introduces some quality of life changes. Highlights include many crashes being fixed, better support for themeing, better default themes, and our AppImage now (hopefully) working on many more Linux distributions.
 
-Feel free to grab the latest download [here](https://penguinlauncher.pythonanywhere.com/download) for your respective platform, and until next time! 🌈
+Feel free to grab the latest download [here](https://penguinlauncher.cleverpenguinmail.workers.dev//download) for your respective platform, and until next time! 🌈
 
 # Changelog
 

@@ -15,7 +15,7 @@ Hey!
 
 This is a super small release, only fixing compatibility with macOS 11. See the [previous release](/news/release-9.3) for more information.
 
-Feel free to grab the latest download [here](https://penguinlauncher.pythonanywhere.com/download) for your respective platform, and until next time! 🌈
+Feel free to grab the latest download [here](https://penguinlauncher.cleverpenguinmail.workers.dev//download) for your respective platform, and until next time! 🌈
 
 # Changelog
 

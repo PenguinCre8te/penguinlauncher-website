@@ -5,7 +5,7 @@ import rehypeRaw from "rehype-raw";
 import rehypeStringify from "rehype-stringify";
 import { getCollection } from "astro:content";
 
-const DEFAULT_URL = new URL("https://penguinlauncher.pythonanywhere.com");
+const DEFAULT_URL = new URL("https://penguinlauncher.cleverpenguinmail.workers.dev/");
 
 const processor = remark()
 	.use(remarkRehype, { allowDangerousHtml: true })

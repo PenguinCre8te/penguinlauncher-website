@@ -9,7 +9,7 @@ import cloudflare from "@astrojs/cloudflare";
 import starlight from "@astrojs/starlight";
 
 export default defineConfig({
-	site: process.env.DEPLOY_URL || "https://penguinlauncher.pythonanywhere.com",
+	site: process.env.DEPLOY_URL || "https://penguinlauncher.cleverpenguinmail.workers.dev/",
 	output: "static",
 	adapter: cloudflare(),
 

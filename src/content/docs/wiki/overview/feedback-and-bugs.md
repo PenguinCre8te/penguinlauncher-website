@@ -8,4 +8,4 @@ We really appreciate all kinds of feedback from our community. If you've run int
 
 **NOTE:** If you're reporting a bug, please do have a good look through the list of issues posted by other users. It may have already been reported by someone else, or better yet, fixed!
 
-Once you're done there, why don't you come and [join us](https://penguinlauncher.pythonanywhere.com/#get-involved) on our Discord server, Matrix Space, or subreddit? ~~_Or how about all three?_~~
+Once you're done there, why don't you come and [join us](https://penguinlauncher.cleverpenguinmail.workers.dev//#get-involved) on our Discord server, Matrix Space, or subreddit? ~~_Or how about all three?_~~

@@ -101,4 +101,4 @@ Until next time!
 
 Full Changelog: <https://github.com/penguincre8te/PenguinLauncher/compare/6.3...7.0>
 
-You can [grab the latest download here](https://penguinlauncher.pythonanywhere.com/download/) for your respective platform.
+You can [grab the latest download here](https://penguinlauncher.cleverpenguinmail.workers.dev//download/) for your respective platform.
