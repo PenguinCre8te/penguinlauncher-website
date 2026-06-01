@@ -6,7 +6,7 @@ import rehypeStringify from "rehype-stringify";
 import { getCollection } from "astro:content";
 import { Feed } from "feed";
 
-const DEFAULT_URL = new URL("https://penguinlauncher.cleverpenguinmail.workers.dev/");
+const DEFAULT_URL = new URL("https://penguinlauncher.penguincre8te.workers.dev/");
 
 const processor = remark()
 	.use(remarkRehype, { allowDangerousHtml: true })
