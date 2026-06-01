@@ -45,6 +45,6 @@ Penguin Premium is separated into two tiers[:](https://i.imgur.com/KUEFPc2.png)
 
 ## When can I sign up?!
 
-Penguin Premium isn't quite ready yet, but we'll hopefully have some more news for you soon. Follow us on [Mastodon](https://floss.social/@PenguinLauncher), [Bluesky](https://bsky.app/profile/penguinlauncher.org), and [Twitter](https://www.youtube.com/watch?v=dQw4w9WgXcQ) to stay up to date
+Penguin Premium isn't quite ready yet, but we'll hopefully have some more news for you soon. 
 
 ### And have a good April!

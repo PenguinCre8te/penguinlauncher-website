@@ -1,26 +1,26 @@
 export const SOCIAL_LINKS = [
 	{
-		href: "https://floss.social/@PenguinLauncher",
+		href: "",
 		label: "Mastodon",
 		icon: "simple-icons:mastodon",
 	},
 	{
-		href: "https://bsky.app/profile/penguinlauncher.org",
+		href: "",
 		label: "Bluesky",
 		icon: "simple-icons:bluesky",
 	},
 	{
-		href: "https://discord.gg/ArX2nafFz2",
+		href: "",
 		label: "Discord",
 		icon: "simple-icons:discord",
 	},
 	{
-		href: "https://matrix.to/#/#penguinlauncher:matrix.org",
+		href: "",
 		label: "Matrix",
 		icon: "simple-icons:matrix",
 	},
 	{
-		href: "https://www.reddit.com/r/PenguinLauncher",
+		href: "",
 		label: "Reddit",
 		icon: "simple-icons:reddit",
 	},
@@ -30,7 +30,7 @@ export const SOCIAL_LINKS = [
 		icon: "simple-icons:github",
 	},
 	{
-		href: "mailto:contact@penguinlauncher.org",
+		href: "mailto:cleverpenguinmail@gmail.com",
 		label: "Email",
 		icon: "lucide:mail",
 	},

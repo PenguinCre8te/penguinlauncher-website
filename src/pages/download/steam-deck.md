@@ -9,6 +9,7 @@ videoAlt: Penguin Launcher on Steam Deck installation guide
 
 ## Installation Instructions
 
+Steam Desk is currently not supported. 
 <!-- ### Flathub
 
 The easiest way to install Penguin Launcher on Steam Deck is through the Discover app store, which comes pre-installed on SteamOS.
@@ -24,7 +25,7 @@ You can also install via terminal in Desktop Mode:
 
 ```bash
 flatpak install flathub org.penguinlauncher.PenguinLauncher
-```-->
+```
 
 ### Add to Steam library
 
@@ -65,3 +66,4 @@ That's it! You should now see the artwork in your Steam Library.
     class="rounded-lg"
   />
 </div>
+-->

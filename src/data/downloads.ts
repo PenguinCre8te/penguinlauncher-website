@@ -54,7 +54,7 @@ export const DOWNLOADS = {
 				{
 					title: "Installer (.exe)",
 					href: `https://github.com/penguincre8te/PenguinLauncher/releases/download/${VERSION}/PenguinLauncher-Windows-MSVC-arm64-Setup-${VERSION}.exe`,
-					type: "secondary" as const,
+					type: "primary" as const,
 					icon: "simple-icons:windows",
 					secondaryIcon: "lucide:download",
 				},
@@ -74,16 +74,9 @@ export const DOWNLOADS = {
 			title: "x86-64",
 			downloads: [
 				{
-					title: "Flathub",
-					href: "https://flathub.org/apps/details/org.penguinlauncher.PenguinLauncher",
-					type: "primary" as const,
-					icon: "simple-icons:flathub",
-					secondaryIcon: "lucide:link",
-				},
-				{
 					title: "AppImage (.appimage)",
 					href: `https://github.com/penguincre8te/PenguinLauncher/releases/download/${VERSION}/PenguinLauncher-Linux-x86_64.AppImage`,
-					type: "secondary" as const,
+					type: "primary" as const,
 					icon: "simple-icons:linux",
 					secondaryIcon: "lucide:download",
 				},
@@ -100,16 +93,9 @@ export const DOWNLOADS = {
 			title: "ARM64",
 			downloads: [
 				{
-					title: "Flathub",
-					href: "https://flathub.org/apps/details/org.penguinlauncher.PenguinLauncher",
-					type: "primary" as const,
-					icon: "simple-icons:flathub",
-					secondaryIcon: "lucide:link",
-				},
-				{
 					title: "AppImage (.appimage)",
 					href: `https://github.com/penguincre8te/PenguinLauncher/releases/download/${VERSION}/PenguinLauncher-Linux-aarch64.AppImage`,
-					type: "secondary" as const,
+					type: "primary" as const,
 					icon: "simple-icons:linux",
 					secondaryIcon: "lucide:download",
 				},
@@ -144,11 +130,11 @@ export const DOWNLOADS = {
 			title: "Steam Deck",
 			downloads: [
 				{
-					title: "Flathub",
-					href: "https://flathub.org/apps/details/org.penguinlauncher.PenguinLauncher",
-					type: "primary" as const,
-					icon: "simple-icons:flathub",
-					secondaryIcon: "lucide:link",
+					title: "Currently not supported",
+					href: "",
+					type: "secondary" as const,
+					icon: "",
+					secondaryIcon: "",
 				},
 			],
 		},
