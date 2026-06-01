@@ -38,9 +38,9 @@ For each week this month, our staff will be compiling and showcasing queer-creat
 - Resource packs
 - Shader packs
 - [CatPacks](/wiki/getting-started/catpacks/)
-- …and probably whatever else you think is cool and Minecraft/Prism Launcher related
+- …and probably whatever else you think is cool and Minecraft/Penguin Launcher related
 
-You can send us suggestions in the [Pride 2025 Showcase thread](https://discord.com/channels/1031648380885147709/1379576393234649128) on our [Discord server](https://discord.gg/ArX2nafFz2), or shoot us an email at [`contact@prismlauncher.org`](mailto:contact@prismlauncher.org) (Try to avoid raw files please! We suggest linking to projects on Modrinth, CurseForge, and GitHub)
+You can send us suggestions in the [Pride 2025 Showcase thread](https://discord.com/channels/1031648380885147709/1379576393234649128) on our [Discord server](https://discord.gg/ArX2nafFz2), or shoot us an email at [`contact@penguinlauncher.org`](mailto:contact@penguinlauncher.org) (Try to avoid raw files please! We suggest linking to projects on Modrinth, CurseForge, and GitHub)
 
 Happy pride, and remember: you matter, you are valid, and you are loved.
 Talk to you again soon!

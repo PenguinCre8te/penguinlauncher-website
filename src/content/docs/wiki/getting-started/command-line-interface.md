@@ -1,11 +1,11 @@
 ---
-title: Using Prism Launcher via the Command Line
+title: Using Penguin Launcher via the Command Line
 sidebar:
   label: Command Line Interface
 ---
 
 ```text
-Usage: prismlauncher [-h] [-v] [-d dir] [-l launch] [-s server] [-a profile] [-I import] [--show show] [--alive] [--help-all]
+Usage: penguinlauncher [-h] [-v] [-d dir] [-l launch] [-s server] [-a profile] [-I import] [--show show] [--alive] [--help-all]
 
 Options:
   -d, --dir directory    Use a custom path as application root (use '.' for current directory)
@@ -28,8 +28,8 @@ To find it, **right-click** on the instance you want to know the ID of, and then
 
 Now, just copy the name of the folder that opened.
 
-## Prism Launcher is still opening after I close Minecraft
+## Penguin Launcher is still opening after I close Minecraft
 
-Currently, the _Close Prism Launcher after game window opens_ option opens Prism Launcher after closing Minecraft, even when launched from the CLI.
+Currently, the _Close Penguin Launcher after game window opens_ option opens Penguin Launcher after closing Minecraft, even when launched from the CLI.
 
-To disable this, open _Settings_, then select _Minecraft_, and finally, un-check _Close Prism Launcher after game window opens_ or check _Quit the launcher after game window closes_.
+To disable this, open _Settings_, then select _Minecraft_, and finally, un-check _Close Penguin Launcher after game window opens_ or check _Quit the launcher after game window closes_.

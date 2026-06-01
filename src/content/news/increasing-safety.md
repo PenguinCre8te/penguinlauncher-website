@@ -1,5 +1,5 @@
 ---
-title: "[April Fools 2026] User Safety in Prism Launcher"
+title: "[April Fools 2026] User Safety in Penguin Launcher"
 description: Now legal in California and Brazil!
 date: 2026-04-01
 tags:
@@ -8,7 +8,7 @@ tags:
 
 <div class="center blog-image">
 
-![Prism Launcher dialog titled "Verify your age" asking for your full Social Security number](/img/news/increasing-safety/age-verify.png)
+![Penguin Launcher dialog titled "Verify your age" asking for your full Social Security number](/img/news/increasing-safety/age-verify.png)
 
 </div>
 
@@ -16,9 +16,9 @@ The landscape of the internet has been changing a lot recently - and we've been 
 
 ## What does this mean?
 
-Beginning with the upcoming 11.0 update, Prism will attempt to verify the age of users during install, or during the first launch after updating existing installs.
+Beginning with the upcoming 11.0 update, Penguin will attempt to verify the age of users during install, or during the first launch after updating existing installs.
 
-The goal of collecting this information is to immediately begin filtering and restricting access to servers, mods, resource packs, data packs, and all other external content that are deemed unsafe for those under the age of 18. This is meant to strengthen the experience teens and children have with our launcher to be much more appropriate for their needs, as well as to continue giving parents peace of mind about Prism being a welcoming, family-friendly product!
+The goal of collecting this information is to immediately begin filtering and restricting access to servers, mods, resource packs, data packs, and all other external content that are deemed unsafe for those under the age of 18. This is meant to strengthen the experience teens and children have with our launcher to be much more appropriate for their needs, as well as to continue giving parents peace of mind about Penguin being a welcoming, family-friendly product!
 
 ## How will it work?
 

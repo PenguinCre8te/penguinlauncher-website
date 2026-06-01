@@ -34,14 +34,14 @@ export const DOWNLOADS = {
 			downloads: [
 				{
 					title: "Installer (.exe)",
-					href: `https://github.com/PrismLauncher/PrismLauncher/releases/download/${VERSION}/PrismLauncher-Windows-MSVC-Setup-${VERSION}.exe`,
+					href: `https://github.com/penguincre8te/PenguinLauncher/releases/download/${VERSION}/PenguinLauncher-Windows-MSVC-Setup-${VERSION}.exe`,
 					type: "primary" as const,
 					icon: "simple-icons:windows",
 					secondaryIcon: "lucide:download",
 				},
 				{
 					title: "Portable (.zip)",
-					href: `https://github.com/PrismLauncher/PrismLauncher/releases/download/${VERSION}/PrismLauncher-Windows-MinGW-w64-Portable-${VERSION}.zip`,
+					href: `https://github.com/penguincre8te/PenguinLauncher/releases/download/${VERSION}/PenguinLauncher-Windows-MinGW-w64-Portable-${VERSION}.zip`,
 					type: "secondary" as const,
 					icon: "simple-icons:windows",
 					secondaryIcon: "lucide:download",
@@ -53,14 +53,14 @@ export const DOWNLOADS = {
 			downloads: [
 				{
 					title: "Installer (.exe)",
-					href: `https://github.com/PrismLauncher/PrismLauncher/releases/download/${VERSION}/PrismLauncher-Windows-MSVC-arm64-Setup-${VERSION}.exe`,
+					href: `https://github.com/penguincre8te/PenguinLauncher/releases/download/${VERSION}/PenguinLauncher-Windows-MSVC-arm64-Setup-${VERSION}.exe`,
 					type: "secondary" as const,
 					icon: "simple-icons:windows",
 					secondaryIcon: "lucide:download",
 				},
 				{
 					title: "Portable (.zip)",
-					href: `https://github.com/PrismLauncher/PrismLauncher/releases/download/${VERSION}/PrismLauncher-Windows-MinGW-arm64-Portable-${VERSION}.zip`,
+					href: `https://github.com/penguincre8te/PenguinLauncher/releases/download/${VERSION}/PenguinLauncher-Windows-MinGW-arm64-Portable-${VERSION}.zip`,
 					type: "secondary" as const,
 					icon: "simple-icons:windows",
 					secondaryIcon: "lucide:download",
@@ -75,21 +75,21 @@ export const DOWNLOADS = {
 			downloads: [
 				{
 					title: "Flathub",
-					href: "https://flathub.org/apps/details/org.prismlauncher.PrismLauncher",
+					href: "https://flathub.org/apps/details/org.penguinlauncher.PenguinLauncher",
 					type: "primary" as const,
 					icon: "simple-icons:flathub",
 					secondaryIcon: "lucide:link",
 				},
 				{
 					title: "AppImage (.appimage)",
-					href: `https://github.com/PrismLauncher/PrismLauncher/releases/download/${VERSION}/PrismLauncher-Linux-x86_64.AppImage`,
+					href: `https://github.com/penguincre8te/PenguinLauncher/releases/download/${VERSION}/PenguinLauncher-Linux-x86_64.AppImage`,
 					type: "secondary" as const,
 					icon: "simple-icons:linux",
 					secondaryIcon: "lucide:download",
 				},
 				{
 					title: "Portable (tar.gz)",
-					href: `https://github.com/PrismLauncher/PrismLauncher/releases/download/${VERSION}/PrismLauncher-Linux-Qt6-Portable-${VERSION}.tar.gz`,
+					href: `https://github.com/penguincre8te/PenguinLauncher/releases/download/${VERSION}/PenguinLauncher-Linux-Qt6-Portable-${VERSION}.tar.gz`,
 					type: "secondary" as const,
 					icon: "simple-icons:linux",
 					secondaryIcon: "lucide:download",
@@ -101,21 +101,21 @@ export const DOWNLOADS = {
 			downloads: [
 				{
 					title: "Flathub",
-					href: "https://flathub.org/apps/details/org.prismlauncher.PrismLauncher",
+					href: "https://flathub.org/apps/details/org.penguinlauncher.PenguinLauncher",
 					type: "primary" as const,
 					icon: "simple-icons:flathub",
 					secondaryIcon: "lucide:link",
 				},
 				{
 					title: "AppImage (.appimage)",
-					href: `https://github.com/PrismLauncher/PrismLauncher/releases/download/${VERSION}/PrismLauncher-Linux-aarch64.AppImage`,
+					href: `https://github.com/penguincre8te/PenguinLauncher/releases/download/${VERSION}/PenguinLauncher-Linux-aarch64.AppImage`,
 					type: "secondary" as const,
 					icon: "simple-icons:linux",
 					secondaryIcon: "lucide:download",
 				},
 				{
 					title: "Portable (tar.gz)",
-					href: `https://github.com/PrismLauncher/PrismLauncher/releases/download/${VERSION}/PrismLauncher-Linux-aarch64-Qt6-Portable-${VERSION}.tar.gz`,
+					href: `https://github.com/penguincre8te/PenguinLauncher/releases/download/${VERSION}/PenguinLauncher-Linux-aarch64-Qt6-Portable-${VERSION}.tar.gz`,
 					type: "secondary" as const,
 					icon: "simple-icons:linux",
 					secondaryIcon: "lucide:download",
@@ -130,7 +130,7 @@ export const DOWNLOADS = {
 			downloads: [
 				{
 					title: "Universal (.zip)",
-					href: `https://github.com/PrismLauncher/PrismLauncher/releases/download/${VERSION}/PrismLauncher-macOS-${VERSION}.zip`,
+					href: `https://github.com/penguincre8te/PenguinLauncher/releases/download/${VERSION}/PenguinLauncher-macOS-${VERSION}.zip`,
 					type: "primary" as const,
 					icon: "simple-icons:apple",
 					secondaryIcon: "lucide:download",
@@ -145,7 +145,7 @@ export const DOWNLOADS = {
 			downloads: [
 				{
 					title: "Flathub",
-					href: "https://flathub.org/apps/details/org.prismlauncher.PrismLauncher",
+					href: "https://flathub.org/apps/details/org.penguinlauncher.PenguinLauncher",
 					type: "primary" as const,
 					icon: "simple-icons:flathub",
 					secondaryIcon: "lucide:link",

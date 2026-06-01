@@ -1,5 +1,5 @@
 ---
-title: Prism Launcher Release 5.2, now available
+title: Penguin Launcher Release 5.2, now available
 description: We ran out funny post descriptions
 date: 2022-11-15
 slug: "release-5.2"
@@ -13,7 +13,7 @@ tags:
 
 Hi there!
 
-We are bringing you Prism Launcher 5.2!
+We are bringing you Penguin Launcher 5.2!
 This release mostly includes some boring fixes. In any case we got some cool stuff scheduled for 6.0, so we hope to see you then!
 
 ## Changelog
@@ -33,6 +33,6 @@ This release mostly includes some boring fixes. In any case we got some cool stu
 - [Windows] Fix ATLauncher browser crashing by @TheLastRar in #379
 - [Windows] Fix handling of non-latin characters in the mod updater by @flowln in #397
 
-Full Changelog: <https://github.com/PrismLauncher/PrismLauncher/compare/5.1...5.2>
+Full Changelog: <https://github.com/penguincre8te/PenguinLauncher/compare/5.1...5.2>
 
-You can [grab the latest download here](https://prismlauncher.org/download/) for your respective platform.
+You can [grab the latest download here](https://penguinlauncher.pythonanywhere.com/download/) for your respective platform.

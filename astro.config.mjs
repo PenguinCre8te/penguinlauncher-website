@@ -9,7 +9,7 @@ import cloudflare from "@astrojs/cloudflare";
 import starlight from "@astrojs/starlight";
 
 export default defineConfig({
-	site: process.env.DEPLOY_URL || "https://prismlauncher.org",
+	site: process.env.DEPLOY_URL || "https://penguinlauncher.pythonanywhere.com",
 	output: "static",
 	adapter: cloudflare(),
 
@@ -19,17 +19,17 @@ export default defineConfig({
 
 	redirects: {
 		"/discord": "https://discord.gg/ArX2nafFz2",
-		"/github": "https://github.com/PrismLauncher/PrismLauncher",
-		"/mastodon": "https://floss.social/@PrismLauncher",
-		"/matrix": "https://matrix.to/#/#prismlauncher:matrix.org",
-		"/reddit": "https://www.reddit.com/r/PrismLauncher/",
-		"/twitter": "https://twitter.com/PrismLauncher",
-		"/bluesky": "https://bsky.app/profile/prismlauncher.org",
+		"/github": "https://github.com/penguincre8te/PenguinLauncher",
+		"/mastodon": "https://floss.social/@PenguinLauncher",
+		"/matrix": "https://matrix.to/#/#penguinlauncher:matrix.org",
+		"/reddit": "https://www.reddit.com/r/PenguinLauncher/",
+		"/twitter": "https://twitter.com/PenguinLauncher",
+		"/bluesky": "https://bsky.app/profile/penguinlauncher.org",
 	},
 
 	integrations: [
 		starlight({
-			title: "Prism Launcher Wiki",
+			title: "Penguin Launcher Wiki",
 
 			customCss: ["./src/styles/starlight.css"],
 
@@ -84,12 +84,12 @@ export default defineConfig({
 				{
 					icon: "mastodon",
 					label: "Mastodon",
-					href: "https://floss.social/@PrismLauncher",
+					href: "https://floss.social/@PenguinLauncher",
 				},
 				{
 					icon: "blueSky",
 					label: "Bluesky",
-					href: "https://bsky.app/profile/prismlauncher.org",
+					href: "https://bsky.app/profile/penguinlauncher.org",
 				},
 				{
 					icon: "discord",
@@ -99,22 +99,22 @@ export default defineConfig({
 				{
 					icon: "matrix",
 					label: "Matrix",
-					href: "https://matrix.to/#/#prismlauncher:matrix.org",
+					href: "https://matrix.to/#/#penguinlauncher:matrix.org",
 				},
 				{
 					icon: "reddit",
 					label: "Reddit",
-					href: "https://www.reddit.com/r/PrismLauncher/",
+					href: "https://www.reddit.com/r/PenguinLauncher/",
 				},
 				{
 					icon: "github",
 					label: "GitHub",
-					href: "https://github.com/PrismLauncher/PrismLauncher",
+					href: "https://github.com/penguincre8te/PenguinLauncher",
 				},
 				{
 					icon: "email",
 					label: "E-mail",
-					href: "mailto:contact@prismlauncher.org",
+					href: "mailto:contact@penguinlauncher.org",
 				},
 			],
 

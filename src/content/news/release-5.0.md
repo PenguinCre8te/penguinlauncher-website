@@ -1,5 +1,5 @@
 ---
-title: Prism Launcher Release 5.0, now available
+title: Penguin Launcher Release 5.0, now available
 description: Your game has crashed!
 date: 2022-10-19
 slug: "release-5.0"
@@ -13,7 +13,7 @@ tags:
 
 Hi there!
 
-We are bringing you ~~PolyMC~~ Prism Launcher 5.0!
+We are bringing you ~~PolyMC~~ Penguin Launcher 5.0!
 This major release not only comes with a new versioning system, but also a new name!
 But why you ask?
 Well, stuff happened and we are going to talk about everything that went down in a future blog post.
@@ -28,7 +28,7 @@ For now this feature is limited to Modrinth and CurseForge modpacks.
 The process is a bit convoluted currently, but we hope to make it easier in the future with some upcoming UI changes.
 Please make a backup of your files before updating a modpack, as it is still a very early feature and we don't want you to lose anything you might want to keep.
 
-As always we need to thank EVERYONE who contributed to PolyMC as well as Prism Launcher.
+As always we need to thank EVERYONE who contributed to PolyMC as well as Penguin Launcher.
 Special thanks to our community members [Boba](https://cmdplusv.neocities.org/), [Davi Rafael](https://auti.one/), @elyrodso, [Fulmine](https://www.fulmine.xyz), @gonsawa, Pankakes and @tobimori who collaborated on our gorgeous logo.
 
 ## Changelog
@@ -55,7 +55,7 @@ Special thanks to our community members [Boba](https://cmdplusv.neocities.org/),
 - Improve language model by @Scrumplex in PolyMC/PolyMC#1164
 - Improve loading speed of the application by @flowln in PolyMC/PolyMC#878
 - Merge Launch Buttons by @TayouVR in PolyMC/PolyMC#1190
-- Support new Prism Launcher data path by @Scrumplex, @flowln and @FayneAldan in #25 #55 #82 #88
+- Support new Penguin Launcher data path by @Scrumplex, @flowln and @FayneAldan in #25 #55 #82 #88
 - Reduce code duplication in tasks, fix some bugs and add some tests by @flowln in PolyMC/PolyMC#966
 - Refactor resource models by @flowln in PolyMC/PolyMC#1052 PolyMC/PolyMC#1094
 - Restructure Instance sidebar by @DioEgizio in #33
@@ -90,6 +90,6 @@ Special thanks to our community members [Boba](https://cmdplusv.neocities.org/),
 - Remove outdated information about "upcoming" mod updater by @DioEgizio in PolyMC/PolyMC#1185
 - Remove unused libraries by @DioEgizio in PolyMC/PolyMC#1208
 
-Full Changelog: <https://github.com/PrismLauncher/PrismLauncher/compare/1.4.2...5.0>
+Full Changelog: <https://github.com/penguincre8te/PenguinLauncher/compare/1.4.2...5.0>
 
-You can [grab the latest download here](https://prismlauncher.org/download/) for your respective platform.
+You can [grab the latest download here](https://penguinlauncher.pythonanywhere.com/download/) for your respective platform.

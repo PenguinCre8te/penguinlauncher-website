@@ -1,5 +1,5 @@
 ---
-title: "[MANUAL UPDATE REQUIRED] Prism Launcher Release 11.0.2"
+title: "[MANUAL UPDATE REQUIRED] Penguin Launcher Release 11.0.2"
 description: "Symmetry not included! Take #2"
 date: 2026-04-13
 slug: "release-11.0.2"
@@ -18,10 +18,10 @@ Grab the latest download [here](/download), and read on to see the full list of 
 
 ## Changelog
 
-You can also see the individual changes [here](https://github.com/PrismLauncher/PrismLauncher/compare/11.0.1...11.0.2).
+You can also see the individual changes [here](https://github.com/penguincre8te/PenguinLauncher/compare/11.0.1...11.0.2).
 
 ## Fixed
 
-- Updater: Do not reset current task in finished signal [@Octol1ttle](https://github.com/Octol1ttle) in [#5370](https://github.com/PrismLauncher/PrismLauncher/pull/5370)
+- Updater: Do not reset current task in finished signal [@Octol1ttle](https://github.com/Octol1ttle) in [#5370](https://github.com/penguincre8te/PenguinLauncher/pull/5370)
 
 For the previous version see [11.0.1 Changelog](/news/release-11.0.1/)

@@ -1,5 +1,5 @@
 ---
-title: "Prism Launcher Release 9.1, now available"
+title: "Penguin Launcher Release 9.1, now available"
 description: Oops
 date: 2024-10-24
 slug: "release-9.1"
@@ -21,8 +21,8 @@ Apologies for the delay - we were not initially quite aware of the impact that t
 
 ## Fixed
 
-- Fix Windows installer restarting device by [@TheKodeToad](https://github.com/TheKodeToad) in [#2948](https://github.com/PrismLauncher/PrismLauncher/pull/2948)
+- Fix Windows installer restarting device by [@TheKodeToad](https://github.com/TheKodeToad) in [#2948](https://github.com/penguincre8te/PenguinLauncher/pull/2948)
 
-Full Changelog: <https://github.com/PrismLauncher/PrismLauncher/compare/9.0...9.1>
+Full Changelog: <https://github.com/penguincre8te/PenguinLauncher/compare/9.0...9.1>
 
-You can [grab the latest download here](https://prismlauncher.org/download/) for your respective platform.
+You can [grab the latest download here](https://penguinlauncher.pythonanywhere.com/download/) for your respective platform.

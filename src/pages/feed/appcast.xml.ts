@@ -5,7 +5,7 @@ import rehypeRaw from "rehype-raw";
 import rehypeStringify from "rehype-stringify";
 import { getCollection } from "astro:content";
 
-const DEFAULT_URL = new URL("https://prismlauncher.org");
+const DEFAULT_URL = new URL("https://penguinlauncher.pythonanywhere.com");
 
 const processor = remark()
 	.use(remarkRehype, { allowDangerousHtml: true })
@@ -44,7 +44,7 @@ export const GET: APIRoute = async ({ site = DEFAULT_URL }) => {
     <sparkle:version>${release_version}</sparkle:version>
     <description><![CDATA[${content}]]></description>
     <pubDate>${data.date.toISOString()}</pubDate>${minMac}
-    <enclosure sparkle:os="macos" url="https://github.com/PrismLauncher/PrismLauncher/releases/download/${release_version}/PrismLauncher-macOS-${release_version}.${macos_file_extension || "tar.gz"}" length="0" type="application/octet-stream" sparkle:edSignature="${macos_signature}"/>
+    <enclosure sparkle:os="macos" url="https://github.com/penguincre8te/PenguinLauncher/releases/download/${release_version}/PenguinLauncher-macOS-${release_version}.${macos_file_extension || "tar.gz"}" length="0" type="application/octet-stream" sparkle:edSignature="${macos_signature}"/>
   </item>`;
 		}),
 	);
@@ -53,7 +53,7 @@ export const GET: APIRoute = async ({ site = DEFAULT_URL }) => {
 		`<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Prism Launcher</title>
+    <title>Penguin Launcher</title>
     <link>${feedLink}</link>
     <language>en</language>
 ${items.join("\n")}

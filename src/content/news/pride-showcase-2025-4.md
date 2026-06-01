@@ -20,7 +20,7 @@ To celebrate, we have also compiled all the in-game content we could into a Modr
 
 ## Xenia Foxpack
 
-<img alt="Main manu of Prism with a picture of Xenia in the background" src="/img/news/pride-showcase-2025/xenia-foxpack.png" style="width: 40em">
+<img alt="Main manu of Penguin with a picture of Xenia in the background" src="/img/news/pride-showcase-2025/xenia-foxpack.png" style="width: 40em">
 
 <small>Created by OwOmay</small>
 

@@ -1,12 +1,12 @@
 ---
 title: "[PSA] Fake Discord server using our old vanity link"
-description: Please use https://prismlauncher.org/discord.
+description: Please use https://penguinlauncher.pythonanywhere.com/discord.
 date: 2026-01-18
 ---
 
 **Update:** Discord has taken action against the account stealing and reserved the link so it cannot be reclaimed.
 
-The invite link discord.gg/prismlauncher is no longer controlled by us, please make sure to use the link on our website and launcher instead (https://prismlauncher.org/discord). And never trust servers which require you to "link"/verify your Minecraft account to join!
+The invite link discord.gg/penguinlauncher is no longer controlled by us, please make sure to use the link on our website and launcher instead (https://penguinlauncher.pythonanywhere.com/discord). And never trust servers which require you to "link"/verify your Minecraft account to join!
 
 With enough [server boosts](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ) (which require a subscription fee), Discord allows you to set a custom invite link for your server. Unfortunately, if you loose these boosts (which we have) anyone else can claim it.
 

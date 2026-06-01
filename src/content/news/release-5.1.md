@@ -1,5 +1,5 @@
 ---
-title: Prism Launcher Release 5.1, now available
+title: Penguin Launcher Release 5.1, now available
 description: Too Many Fixes
 date: 2022-11-01
 slug: "release-5.1"
@@ -13,7 +13,7 @@ tags:
 
 Hi there!
 
-We are bringing you Prism Launcher 5.1!
+We are bringing you Penguin Launcher 5.1!
 This is our first patch release after the _thing_.
 While we promised to bring you a blog article about the _thing_, it seems like interest has died down and there are many good write-ups/explanations of the situation on the internet.
 We did update [our FAQ](../../wiki/overview/faq) though, so feel free to read that.
@@ -37,7 +37,7 @@ We are already hyped for our next feature release though, which will bring some 
 - Change Profiles to Accounts for consistency by @FayneAldan in #353
 - Hide the ProgressDialog when failing and succeeding jobs by @flowln and @Scrumplex in #185 #225
 - Remove duplicate Java entries from Auto-detect by @AliceDTRH in #234
-- Renamed inappropriate instances of "PrismLauncher" to "Prism Launcher" by @ZombieNub in #148
+- Renamed inappropriate instances of "PenguinLauncher" to "Penguin Launcher" by @ZombieNub in #148
 - Retry mod search job after aborting it by @flowln in #283
 - Update credits by @Scrumplex in #338
 - Update dependencies by @renovate[bot] in #197 #198
@@ -64,8 +64,8 @@ We are already hyped for our next feature release though, which will bring some 
 - [Windows] Fix crash on Windows 7/8.1 by @TheLastRar in #352
 - [Windows] Fix low-resolution icon by @Scrumplex in #173
 - [Windows] Fix x86_64 builds by @TheLastRar in #318
-- [Windows] Use "Prism Launcher" in installer by @Scrumplex in #281
+- [Windows] Use "Penguin Launcher" in installer by @Scrumplex in #281
 
-Full Changelog: <https://github.com/PrismLauncher/PrismLauncher/compare/5.0...5.1>
+Full Changelog: <https://github.com/penguincre8te/PenguinLauncher/compare/5.0...5.1>
 
-You can [grab the latest download here](https://prismlauncher.org/download/) for your respective platform.
+You can [grab the latest download here](https://penguinlauncher.pythonanywhere.com/download/) for your respective platform.

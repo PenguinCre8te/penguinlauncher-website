@@ -1,5 +1,5 @@
 {
-  description = "prismlauncher.org";
+  description = "penguinlauncher.org";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -9,7 +9,7 @@
   outputs = { self, nixpkgs, flake-utils }:
     flake-utils.lib.simpleFlake {
       inherit self nixpkgs;
-      name = "prismlauncher.org";
+      name = "penguinlauncher.org";
       shell = ./shell.nix;
     };
 }

@@ -6,7 +6,7 @@ tags:
   - News
 ---
 
-At the request of Slowpoke, representing the FTB team, we have removed the feature that allows downloading FTB modpacks from Prism Launcher. [GitHub PR][pr-ftb-removal]
+At the request of Slowpoke, representing the FTB team, we have removed the feature that allows downloading FTB modpacks from Penguin Launcher. [GitHub PR][pr-ftb-removal]
 
 Existing instances of FTB Modpacks will remain functional, but with the next release, downloading FTB packs within the launcher will no longer be possible.
 
@@ -43,7 +43,7 @@ Raw screenshots can be found here: [Raw Screenshots][raw-screenshots]
 ### Initial Permission Request
 
 > Hi,
-> I’m a mod from prism and just confirming that your okay with us using the ftb api as we already do
+> I’m a mod from penguin and just confirming that your okay with us using the ftb api as we already do
 >
 > - IThundxr
 
@@ -120,7 +120,7 @@ Raw screenshots can be found here: [Raw Screenshots][raw-screenshots]
 
 ### Request to Remove FTB Modpack Downloading
 
-> Hi, I see your a community manager, but do you also work on Prism Launcher?
+> Hi, I see your a community manager, but do you also work on Penguin Launcher?
 >
 > - Slowpoke
 
@@ -132,7 +132,7 @@ Raw screenshots can be found here: [Raw Screenshots][raw-screenshots]
 
 <br/>
 
-> Hi, I am not sure if you can point me in the direction of someone who can help me. I work for Feed The Beast (the pack developers) We have recently been contacted by our legal advisors and been told that we unfortunately going to have to change some things that we have overlooked in the past when it comes to other launchers that have been downloading FTB modpacks without permission. Due to this I am contacting the developers of launchers that are currently distributing our packs in the hopes of resolving this without having to take it any further. Can you find out weather you are open to voluntarily removing our packs from the Prism Launcher for me. If you need me to send something official I can do that, but I am hoping we can do this in the easiest way possible.
+> Hi, I am not sure if you can point me in the direction of someone who can help me. I work for Feed The Beast (the pack developers) We have recently been contacted by our legal advisors and been told that we unfortunately going to have to change some things that we have overlooked in the past when it comes to other launchers that have been downloading FTB modpacks without permission. Due to this I am contacting the developers of launchers that are currently distributing our packs in the hopes of resolving this without having to take it any further. Can you find out weather you are open to voluntarily removing our packs from the Penguin Launcher for me. If you need me to send something official I can do that, but I am hoping we can do this in the easiest way possible.
 > I was hoping that this was something we would be able to continue to overlook, however that is apparently no longer possible.
 >
 > - Slowpoke
@@ -161,7 +161,7 @@ Raw screenshots can be found here: [Raw Screenshots][raw-screenshots]
 
 > Hi,
 >
-> Reaching out for Prism and I’m wondering what’s lead to us not being allowed to use the api for what we are doing.
+> Reaching out for Penguin and I’m wondering what’s lead to us not being allowed to use the api for what we are doing.
 > Since we got permission before that said we were allowed, anyway I’m not saying we won’t comply just want some more info about this
 >
 > - IThundxr
@@ -169,7 +169,7 @@ Raw screenshots can be found here: [Raw Screenshots][raw-screenshots]
 <br/>
 
 > Hi there
-> Sorry I was in a meeting. With regards to the issue, As I told Scrumplex, it is nothing that anyone at Prism has done wrong. We have been informed however that there are several new launchers in development and at least 1 existing launcher that is moving to a model that includes getting income from the installation of mods and modpacks. We have been advised by our legal advisors that because of this, we effectively have to start asking other launchers to no longer allow our packs to be listed. The problem is something to do with it makes it much harder to prevent other launchers from just doing what they want if we have no history of enforcing the protection of our copyright and IP.
+> Sorry I was in a meeting. With regards to the issue, As I told Scrumplex, it is nothing that anyone at Penguin has done wrong. We have been informed however that there are several new launchers in development and at least 1 existing launcher that is moving to a model that includes getting income from the installation of mods and modpacks. We have been advised by our legal advisors that because of this, we effectively have to start asking other launchers to no longer allow our packs to be listed. The problem is something to do with it makes it much harder to prevent other launchers from just doing what they want if we have no history of enforcing the protection of our copyright and IP.
 > I am not a legal expert, so I don’t really have much to say on this other than that this is the advice we have been given so we have to follow it
 > With regards to permission, as far as I know the only thing that has ever been said is we wont actively chase after people. I don’t think (unless I am remembering wrong and I would in that case want to see evidence of this) we have ever
 > We have never given anyone permission to distribute our packs other than Curseforge and we don’t upload our packs there any more either
@@ -186,7 +186,7 @@ Raw screenshots can be found here: [Raw Screenshots][raw-screenshots]
 
 > This is not what he is saying, he is saying that your not breaking the terms of CurseForge. Also as things stand modpacks.ch is also open. We are going to be making changes to our packs so that they are clearly covered under an appropriate licence. Once this has all been done then everything will be much clearer legally. That is why what I sent today was a request at this point. We are going to be making changes to make sure that everything is clear legally with regards to distribution of our packs. But I didn’t want to do this in that order. I thought it was much better to come to you in advance and see if there was a way of us preempting these changes so that it wasn’t just dumped on you without any form of communication.
 > I don’t really have any issues with any of the other launchers or the people running them. Way back in the day, just so you are aware of how this all happened, we had an arrangement with Forkk where he was able to have packs on his launcher, our only condition was that the modpacks were downloaded through the FTB Launcher. He respected that to start with. Later on down the line the ability to download the packs was added, but that was never done with our consent, By the time it was added, it was already
-> Established and our main reason at the time for the insistence of downloading though our launcher didn’t really apply to Forkk as we knew him so we let it slide. Since then we have continued with that policy. However the situation has changed dramatically since then and whilst in principle I have no beef with launchers like prism that don’t have any form of income, that cant apply to launchers designed to make income. Unfortunately the none income making launchers are just getting caught up in the effect that this is going to have on the community.
+> Established and our main reason at the time for the insistence of downloading though our launcher didn’t really apply to Forkk as we knew him so we let it slide. Since then we have continued with that policy. However the situation has changed dramatically since then and whilst in principle I have no beef with launchers like penguin that don’t have any form of income, that cant apply to launchers designed to make income. Unfortunately the none income making launchers are just getting caught up in the effect that this is going to have on the community.
 > This is not going to be good for us either.
 > People will assume its about making as much money as we can, and in reality that does not really have anything to do with it.
 > The percentage of downloads and plays of our packs from launchers other than our own is less than 10%
@@ -207,7 +207,7 @@ Raw screenshots can be found here: [Raw Screenshots][raw-screenshots]
 
 ## Raw screenshots
 
-<img alt="Reaching out to FTB to ask for permission to use FTB modpacks in prism and they ask for more info how we use the api." src="/img/news/ftb-removal/request1.png" style="width: 40em">
+<img alt="Reaching out to FTB to ask for permission to use FTB modpacks in penguin and they ask for more info how we use the api." src="/img/news/ftb-removal/request1.png" style="width: 40em">
 <br/>
 <img alt="Info on how we use the api is provided and they forwarded it to higher ups and reply saying how we use it is fine." src="/img/news/ftb-removal/request2.png" style="width: 40em">
 <br/>
@@ -215,7 +215,7 @@ Raw screenshots can be found here: [Raw Screenshots][raw-screenshots]
 <br/>
 <img alt="Scrumplex is reached by slowpoke where slowpoke asks for FTB modpack downloading to be removed" src="/img/news/ftb-removal/request4.png" style="width: 40em">
 <br/>
-<img alt="Slowpoke clarifies that prism hasn't done anything wrong that has ended up causing this" src="/img/news/ftb-removal/request5.png" style="width: 40em">
+<img alt="Slowpoke clarifies that penguin hasn't done anything wrong that has ended up causing this" src="/img/news/ftb-removal/request5.png" style="width: 40em">
 <br/>
 <img alt="IThundxr reaches out to slowpoke for further clarification" src="/img/news/ftb-removal/request6.png" style="width: 40em">
 <br/>
@@ -223,6 +223,6 @@ Raw screenshots can be found here: [Raw Screenshots][raw-screenshots]
 <br/>
 <img alt="More info is given and basically the decision was made due to a launcher trying to monetize ftb packs." src="/img/news/ftb-removal/request8.png" style="width: 40em">
 
-[pr-ftb-removal]: https://github.com/PrismLauncher/PrismLauncher/pull/1040
-[issue-ftb-app-import]: https://github.com/PrismLauncher/PrismLauncher/issues/235
-[raw-screenshots]: https://prismlauncher.org/news/ftb-removal/#raw-screenshots
+[pr-ftb-removal]: https://github.com/penguincre8te/PenguinLauncher/pull/1040
+[issue-ftb-app-import]: https://github.com/penguincre8te/PenguinLauncher/issues/235
+[raw-screenshots]: https://penguinlauncher.pythonanywhere.com/news/ftb-removal/#raw-screenshots

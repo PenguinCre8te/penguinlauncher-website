@@ -8,7 +8,7 @@ tags:
 
 After a short delay (and as we announced in our [previous blogpost](/news/pride-month-2025)), here's our first showcase of the month! These are all amazing mods made by our queer community, that we had a blast playing with.
 
-As a reminder, you can also send your own submissions in the [Pride 2025 Showcase thread](https://discord.com/channels/1031648380885147709/1379576393234649128) on our [Discord server](https://discord.gg/ArX2nafFz2), or email us at [`contact@prismlauncher.org`](mailto:contact@prismlauncher.org). Thanks to all of those who have already joined in, and don't worry if yours haven't been included yet! We hope to get to all of them :)
+As a reminder, you can also send your own submissions in the [Pride 2025 Showcase thread](https://discord.com/channels/1031648380885147709/1379576393234649128) on our [Discord server](https://discord.gg/ArX2nafFz2), or email us at [`contact@penguinlauncher.org`](mailto:contact@penguinlauncher.org). Thanks to all of those who have already joined in, and don't worry if yours haven't been included yet! We hope to get to all of them :)
 
 ## Pridepack
 

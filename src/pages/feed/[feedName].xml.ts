@@ -6,7 +6,7 @@ import rehypeStringify from "rehype-stringify";
 import { getCollection } from "astro:content";
 import { Feed } from "feed";
 
-const DEFAULT_URL = new URL("https://prismlauncher.org");
+const DEFAULT_URL = new URL("https://penguinlauncher.pythonanywhere.com");
 
 const processor = remark()
 	.use(remarkRehype, { allowDangerousHtml: true })
@@ -25,7 +25,7 @@ export const GET: APIRoute = async ({
 	}
 
 	const feed = new Feed({
-		title: "Prism Launcher",
+		title: "Penguin Launcher",
 		description:
 			"An Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. Focused on user freedom and free redistributability.",
 		id: site.toString(),
@@ -59,7 +59,7 @@ export const GET: APIRoute = async ({
 			content: feedName === "short" ? undefined : content,
 			author: [
 				{
-					name: "Prism Launcher Team",
+					name: "Penguin Launcher Team",
 				},
 			],
 		});

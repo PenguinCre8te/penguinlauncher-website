@@ -1,5 +1,5 @@
 ---
-title: "Prism Launcher Release 8.2, now available"
+title: "Penguin Launcher Release 8.2, now available"
 description: Also try Terraria (again!)
 date: 2024-03-03
 slug: "release-8.2"
@@ -23,6 +23,6 @@ Until next time!
 
 - Changed version number
 
-Full Changelog: <https://github.com/PrismLauncher/PrismLauncher/compare/8.1...8.2>
+Full Changelog: <https://github.com/penguincre8te/PenguinLauncher/compare/8.1...8.2>
 
-You can [grab the latest download here](https://prismlauncher.org/download/) for your respective platform.
+You can [grab the latest download here](https://penguinlauncher.pythonanywhere.com/download/) for your respective platform.

@@ -1,11 +1,11 @@
 export const SOCIAL_LINKS = [
 	{
-		href: "https://floss.social/@PrismLauncher",
+		href: "https://floss.social/@PenguinLauncher",
 		label: "Mastodon",
 		icon: "simple-icons:mastodon",
 	},
 	{
-		href: "https://bsky.app/profile/prismlauncher.org",
+		href: "https://bsky.app/profile/penguinlauncher.org",
 		label: "Bluesky",
 		icon: "simple-icons:bluesky",
 	},
@@ -15,22 +15,22 @@ export const SOCIAL_LINKS = [
 		icon: "simple-icons:discord",
 	},
 	{
-		href: "https://matrix.to/#/#prismlauncher:matrix.org",
+		href: "https://matrix.to/#/#penguinlauncher:matrix.org",
 		label: "Matrix",
 		icon: "simple-icons:matrix",
 	},
 	{
-		href: "https://www.reddit.com/r/PrismLauncher",
+		href: "https://www.reddit.com/r/PenguinLauncher",
 		label: "Reddit",
 		icon: "simple-icons:reddit",
 	},
 	{
-		href: "https://github.com/PrismLauncher/PrismLauncher",
+		href: "https://github.com/penguincre8te/PenguinLauncher",
 		label: "GitHub",
 		icon: "simple-icons:github",
 	},
 	{
-		href: "mailto:contact@prismlauncher.org",
+		href: "mailto:contact@penguinlauncher.org",
 		label: "Email",
 		icon: "lucide:mail",
 	},

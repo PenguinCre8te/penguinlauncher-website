@@ -6,12 +6,12 @@ title: CatPacks
 
 The CatPacks folder location is as follows:
 
-- on **Windows:** `%appdata%\PrismLauncher\catpacks`
-- on **Mac:** `~/Library/Application Support/PrismLauncher/catpacks`
-- on **Linux:** `~/.local/share/PrismLauncher/catpacks`
-- on **Flatpak:** `~/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/catpacks`
+- on **Windows:** `%appdata%\PenguinLauncher\catpacks`
+- on **Mac:** `~/Library/Application Support/PenguinLauncher/catpacks`
+- on **Linux:** `~/.local/share/PenguinLauncher/catpacks`
+- on **Flatpak:** `~/.var/app/org.penguinlauncher.PenguinLauncher/data/PenguinLauncher/catpacks`
 
-After you move the CatPack to the mentioned folder restart Prism Launcher, then open the global settings.
+After you move the CatPack to the mentioned folder restart Penguin Launcher, then open the global settings.
 In the Launcher section, click the User Interface tab, and under Cat, choose the newly added CatPack.
 Click the Close button, and enjoy your CatPack.
 

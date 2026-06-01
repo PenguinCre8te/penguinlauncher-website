@@ -1,5 +1,5 @@
 ---
-title: "Prism Launcher Release 9.4, now available"
+title: "Penguin Launcher Release 9.4, now available"
 description: "Flint and steel!"
 date: 2025-04-07
 slug: "release-9.4"
@@ -15,10 +15,10 @@ Hey!
 
 This is a super small release, only fixing compatibility with macOS 11. See the [previous release](/news/release-9.3) for more information.
 
-Feel free to grab the latest download [here](https://prismlauncher.org/download) for your respective platform, and until next time! 🌈
+Feel free to grab the latest download [here](https://penguinlauncher.pythonanywhere.com/download) for your respective platform, and until next time! 🌈
 
 # Changelog
 
 ## Fixed
 
-- Fix compatibility with macOS 11 by [@getchoo](https://github.com/getchoo) in [#3595](https://github.com/PrismLauncher/PrismLauncher/pull/3595)
+- Fix compatibility with macOS 11 by [@getchoo](https://github.com/getchoo) in [#3595](https://github.com/penguincre8te/PenguinLauncher/pull/3595)

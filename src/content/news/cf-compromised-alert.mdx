@@ -75,7 +75,7 @@ use your firewall to block outbound connections to 85[.]217[.]144[.]130, and mod
 <Callout type="info">
 @orowith2os suggests:
 
-If you use Linux, use the [PrismLauncher Flatpak](https://flathub.org/apps/org.prismlauncher.PrismLauncher) and be very careful of what you give it access to through utilities such as Flatseal. By default, it has no access to the needed directories to compromise the system.
+If you use Linux, use the [PenguinLauncher Flatpak](https://flathub.org/apps/org.penguinlauncher.PenguinLauncher) and be very careful of what you give it access to through utilities such as Flatseal. By default, it has no access to the needed directories to compromise the system.
 
 Other sandbox escapes may be possible, but the malware most likely doesn't account for running inside of a sandbox of this sort.
 
@@ -220,7 +220,7 @@ Luna Pixel Studios has stated its very likely someone has found a way to bypass 
 
 A number of CurseForge and dev.bukkit.org (not the Bukkit software itself) accounts were compromised, and malicious software was injected into many popular plugins and mods. There are reports of malicious plugin/mod JARs as early as May 22nd.
 
-If you have downloaded any mods from CurseForge, or plugins from Bukkit, even through clients such as Prism Launcher or the official CurseForge launcher, it is recommended that you follow the "Am I infected?" guide below.
+If you have downloaded any mods from CurseForge, or plugins from Bukkit, even through clients such as Penguin Launcher or the official CurseForge launcher, it is recommended that you follow the "Am I infected?" guide below.
 
 The affected accounts had two-factor authentication enabled. It's unlikely this is a simple password compromise situation; it may be auth token compromise or something bigger on the CF side. Multiple accounts are affected so we don't believe this is isolated.
 
@@ -243,14 +243,14 @@ Please find up to date technical information on the fracturiser github - [https:
 
 **Note: I don't know Java, this is just me making sense of what I see as best I can.** Others will most likely be able to build on top of this information and explain it in more detail.
 
-Taking a quick look over the decompiled source code, it will indeed fail to function inside of the default PrismLauncher Flatpak sandbox; the current malware hardcodes the user's `~/.config/` directory. The creation of files inside of the Flatpak sandbox, if the app does not have access to that real path, will result in it being written to a tmpfs that gets wiped on a sandbox restart. systemd is also not available inside of the Flatpak sandbox, so executing that command will fail. The malware seems to not attempt to work around these limitations, and assumes it is running unsandboxed.
+Taking a quick look over the decompiled source code, it will indeed fail to function inside of the default PenguinLauncher Flatpak sandbox; the current malware hardcodes the user's `~/.config/` directory. The creation of files inside of the Flatpak sandbox, if the app does not have access to that real path, will result in it being written to a tmpfs that gets wiped on a sandbox restart. systemd is also not available inside of the Flatpak sandbox, so executing that command will fail. The malware seems to not attempt to work around these limitations, and assumes it is running unsandboxed.
 
 </Callout>
 
 <Callout type="info">
 @getchoo and @Scrumplex says:
 
-\*\*Note: When running Prism Launcher at a user level (i.e., not as root), the services installed by stage 1 of the malware will only be made at a user level - however, due to an invalid `WantedBy` field these will not work.
+\*\*Note: When running Penguin Launcher at a user level (i.e., not as root), the services installed by stage 1 of the malware will only be made at a user level - however, due to an invalid `WantedBy` field these will not work.
 
 This means most Linux users may be unaffected by this, but as the files are still there and could pose a threat, it is still recommended to manually check for the files or the run the script to delete them from your system.
 

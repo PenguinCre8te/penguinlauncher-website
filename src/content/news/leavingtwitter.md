@@ -7,8 +7,8 @@ tags:
 ---
 
 Heya folks,
-The Prism Launcher Team will no longer post on the platform formerly known as Twitter. Twitter does not align with our values and hasn't in a long time. In good conscience, we can not support a platform controlled by those spreading hate.
-We believe in fostering an accepting and helpful community, and Twitter is no longer the place for that. We encourage y'all to follow us on alternative platforms such as [Mastodon/Fediverse](https://floss.social/@PrismLauncher) and [Bluesky](https://bsky.app/profile/prismlauncher.org).
+The Penguin Launcher Team will no longer post on the platform formerly known as Twitter. Twitter does not align with our values and hasn't in a long time. In good conscience, we can not support a platform controlled by those spreading hate.
+We believe in fostering an accepting and helpful community, and Twitter is no longer the place for that. We encourage y'all to follow us on alternative platforms such as [Mastodon/Fediverse](https://floss.social/@PenguinLauncher) and [Bluesky](https://bsky.app/profile/penguinlauncher.org).
 
 ### Going Forward
 
