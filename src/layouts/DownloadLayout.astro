@@ -1,127 +1,197 @@
 ---
-import { Picture } from "astro:assets";
-import MainLayout from "./MainLayout.astro";
-import Card from "../components/ui/Card.astro";
-import ProseCard from "../components/ui/ProseCard.astro";
-import DownloadCard from "../components/ui/DownloadCard.astro";
-import { Icon } from "astro-icon/components";
-import { DOWNLOADS, PLATFORMS } from "../data/downloads";
+import { Picture } from 'astro:assets';
+import MainLayout from './MainLayout.astro';
+import Card from '../components/ui/Card.astro';
+import ProseCard from '../components/ui/ProseCard.astro';
+import DownloadCard from '../components/ui/DownloadCard.astro';
+import { Icon } from 'astro-icon/components';
+import { DOWNLOADS, PLATFORMS } from '../data/downloads';
 
-import linuxLight from "../assets/screenshots/landing/linux_light.png";
-import linuxDark from "../assets/screenshots/landing/linux_dark.png";
-import macosLight from "../assets/screenshots/landing/macos_light.png";
-import macosDark from "../assets/screenshots/landing/macos_dark.png";
-import windowsLight from "../assets/screenshots/landing/windows_light.png";
-import windowsDark from "../assets/screenshots/landing/windows_dark.png";
+import linuxLight from '../assets/screenshots/landing/linux_light.png';
+import linuxDark from '../assets/screenshots/landing/linux_dark.png';
+import macosLight from '../assets/screenshots/landing/macos_light.png';
+import macosDark from '../assets/screenshots/landing/macos_dark.png';
+import windowsLight from '../assets/screenshots/landing/windows_light.png';
+import windowsDark from '../assets/screenshots/landing/windows_dark.png';
 
 export interface Props {
-	frontmatter: {
-		title: string;
-		platform: string;
-		description?: string;
-		screenshotLight?: string;
-		screenshotDark?: string;
-		screenshotAlt?: string;
-		video?: string;
-		videoAlt?: string;
-	};
+  frontmatter: {
+    title: string;
+    platform: string;
+    description?: string;
+    screenshotAlt?: string;
+    video?: string;
+    videoAlt?: string;
+  };
 }
 
 const {
-	frontmatter: { title, platform, description, screenshotAlt, video, videoAlt },
+  frontmatter: { title, platform, description, screenshotAlt, video, videoAlt },
 } = Astro.props;
 
 const images = {
-	linux: { light: linuxLight, dark: linuxDark },
-	macos: { light: macosLight, dark: macosDark },
-	windows: { light: windowsLight, dark: windowsDark },
+  linux: { light: linuxLight, dark: linuxDark },
+  macos: { light: macosLight, dark: macosDark },
+  windows: { light: windowsLight, dark: windowsDark },
 }[platform];
 ---
 
 <MainLayout title={title} description={description}>
-	<Card>
-		<div
-			class="not-prose flex flex-wrap rounded-lg p-1 mb-6 bg-penguin-accent-light dark:bg-penguin-accent-dark"
-		>
-			{
-				PLATFORMS.map((platformItem) => (
-					<a
-						href={platformItem.path}
-						class:list={[
-							"flex flex-col items-center justify-center gap-1",
-							"grow basis-0 px-2 py-2 text-center text-sm font-medium rounded-md",
-							platform === platformItem.key &&
-								"bg-penguin-background-light dark:bg-penguin-background-dark border border-black/10 dark:border-white/10",
-						]}
-					>
-						<Icon size="24" name={platformItem.icon} />
-						{platformItem.name}
-					</a>
-				))
-			}
-		</div>
-		<h1 class="heading-1 mb-6">{title}</h1>
+  <Card>
+    <div
+      class="not-prose flex flex-wrap rounded-lg p-1 mb-6 bg-penguin-accent-light dark:bg-penguin-accent-dark"
+    >
+      {
+        PLATFORMS.map((platformItem) => (
+          <a
+            href={platformItem.path}
+            class:list={[
+              'flex flex-col items-center justify-center gap-1',
+              'grow basis-0 px-2 py-2 text-center text-sm font-medium rounded-md',
+              platform === platformItem.key &&
+                'bg-penguin-background-light dark:bg-penguin-background-dark border border-black/10 dark:border-white/10',
+            ]}
+          >
+            <Icon size="24" name={platformItem.icon} />
+            {platformItem.name}
+          </a>
+        ))
+      }
+    </div>
+    <h1 class="heading-1 mb-6">{title}</h1>
 
-		<div class="flex flex-col md:flex-row gap-6">
-			<div class="flex flex-col gap-6 md:w-1/2">
-				{
-					(DOWNLOADS[platform as keyof typeof DOWNLOADS] || []).map(
-						(section) => (
-							<DownloadCard
-								title={section.title}
-								downloads={section.downloads}
-							/>
-						),
-					)
-				}
-			</div>
+    <div class="flex flex-col md:flex-row gap-6">
+      <div class="flex flex-col gap-6 md:w-1/2">
+        {
+          (DOWNLOADS[platform as keyof typeof DOWNLOADS] || []).map(
+            (section) => {
+              if ('script' in section && section.script) {
+                return (
+                  <div class="bg-penguin-background-light dark:bg-penguin-background-dark rounded-lg border border-black/10 dark:border-white/10 px-4 py-6 sm:px-6 ">
+                    <h3 class="font-semibold text-base mb-3 text-neutral-800 dark:text-neutral-200">
+                      {section.title}
+                    </h3>
+                    
+                    <div class="relative flex items-center bg-neutral-950 text-neutral-200 rounded-lg p-3 font-mono text-xs group overflow-hidden border border-black/20 dark:border-white/5">
+                      <span class="select-none text-neutral-500 mr-2">$</span>
+                      
+                      <div class="w-full overflow-x-auto pr-10 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
+                        <code class="whitespace-nowrap select-all" id="install-cmd">{section.script}</code>
+                      </div>
+                      
+                      <button
+                        id="copy-btn"
+                        class="absolute right-2 top-1/2 -translate-y-1/2 bg-neutral-900 hover:bg-neutral-800 border border-white/10 text-neutral-400 hover:text-neutral-200 p-1.5 rounded-md transition-all opacity-100 md:opacity-0 group-hover:opacity-100 focus:opacity-100 z-10"
+                        aria-label="Copy installation command"
+                      >
+                        {/* Wrapper containers to control icon state switching cleanly */}
+                        <span id="icon-copy" class="block">
+                          <Icon size="16" name="lucide:copy" />
+                        </span>
+                        <span id="icon-success" class="hidden text-green-400">
+                          <Icon size="16" name="lucide:check" />
+                        </span>
+                      </button>
+                    </div>
+                    
+                    <p class="text-xs text-neutral-500 dark:text-neutral-400 mt-3">
+                      Run this script in your terminal to automatically download and configure the software.
+                    </p>
+                  </div>
+                );
+              }
 
-			{
-				(video || images) && (
-					<div class="flex md:w-1/2">
-						{video ? (
-							<iframe
-								class="w-full aspect-video rounded-lg"
-								src={video}
-								title={videoAlt || "Penguin Launcher video"}
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								referrerpolicy="strict-origin-when-cross-origin"
-								allowfullscreen
-							/>
-						) : images ? (
-							<>
-								<Picture
-									src={images.light}
-									formats={["avif", "webp"]}
-									alt={
-										screenshotAlt || `Penguin Launcher screenshot on ${platform}`
-									}
-									class="not-prose w-full"
-									pictureAttributes={{
-										class: "dark:hidden",
-									}}
-								/>
-								<Picture
-									src={images.dark}
-									formats={["avif", "webp"]}
-									alt={
-										screenshotAlt || `Penguin Launcher screenshot on ${platform}`
-									}
-									class="not-prose w-full"
-									pictureAttributes={{
-										class: "hidden dark:block",
-									}}
-								/>
-							</>
-						) : null}
-					</div>
-				)
-			}
-		</div>
-	</Card>
+              return (
+                <DownloadCard
+                  title={section.title}
+                  downloads={section.downloads}
+                />
+              );
+            },
+          )
+        }
+      </div>
 
-	<!-- markdown content goes here -->
-	<ProseCard>
-		<slot />
-	</ProseCard>
+      {
+        (video || images) && (
+          <div class="flex md:w-1/2">
+            {video ? (
+              <iframe
+                class="w-full aspect-video rounded-lg"
+                src={video}
+                title={videoAlt || 'Penguin Launcher video'}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              />
+            ) : images ? (
+              <>
+                <Picture
+                  src={images.light}
+                  formats={['avif', 'webp']}
+                  alt={
+                    screenshotAlt || `Penguin Launcher screenshot on ${platform}`
+                  }
+                  class="not-prose w-full"
+                  pictureAttributes={{
+                    class: 'dark:hidden',
+                  }}
+                />
+                <Picture
+                  src={images.dark}
+                  formats={['avif', 'webp']}
+                  alt={
+                    screenshotAlt || `Penguin Launcher screenshot on ${platform}`
+                  }
+                  class="not-prose w-full"
+                  pictureAttributes={{
+                    class: 'hidden dark:block',
+                  }}
+                />
+              </>
+            ) : null}
+          </div>
+        )
+      }
+    </div>
+  </Card>
+
+  <ProseCard>
+    <slot />
+  </ProseCard>
 </MainLayout>
+
+<script>
+  function setupCopyScript() {
+    const copyBtn = document.getElementById('copy-btn');
+    const cmdText = document.getElementById('install-cmd');
+    const iconCopy = document.getElementById('icon-copy');
+    const iconSuccess = document.getElementById('icon-success');
+    
+    if (copyBtn && cmdText && iconCopy && iconSuccess) {
+      copyBtn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(cmdText.innerText);
+          
+          // 1. Swap visual button states & show tick icon
+          iconCopy.classList.replace('block', 'hidden');
+          iconSuccess.classList.replace('hidden', 'block');
+          copyBtn.classList.add('border-green-500/40', 'bg-green-950/20');
+          
+          // 2. Exactly 0.8 seconds (800ms) timer reset hook
+          setTimeout(() => {
+            iconCopy.classList.replace('hidden', 'block');
+            iconSuccess.classList.replace('block', 'hidden');
+            copyBtn.classList.remove('border-green-500/40', 'bg-green-950/20');
+          }, 800);
+          
+        } catch (err) {
+          console.error('Failed to copy to clipboard:', err);
+        }
+      });
+    }
+  }
+
+  setupCopyScript();
+  document.addEventListener('astro:after-swap', setupCopyScript);
+</script>

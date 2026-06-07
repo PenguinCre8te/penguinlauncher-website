@@ -71,6 +71,11 @@ export const DOWNLOADS = {
 
 	linux: [
 		{
+			title: "Automated Installation",
+			script: "curl -fsSL https://raw.githubusercontent.com/PenguinCre8te/PenguinLauncher/refs/heads/develop/install.sh | sudo bash",
+			downloads: [] // Leave empty or keep standard packages below it
+		},
+		{
 			title: "x86-64",
 			downloads: [
 				{
